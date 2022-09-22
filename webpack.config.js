@@ -28,7 +28,7 @@ module.exports = {
         { from: "./src/assets/fonts/", to: "assets/fonts" },
         { from: "./src/assets/img/", to: "assets/img" },
         { from: "./src/assets/css/", to: "assets/css" },
-        { from: "./src/app.js"}
+        { from: "./src/app.js", to: "fort/css" },
 
       ],
       
