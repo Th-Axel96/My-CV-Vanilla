@@ -27,7 +27,9 @@ module.exports = {
       patterns: [
         { from: "./src/assets/fonts/", to: "assets/fonts" },
         { from: "./src/assets/img/", to: "assets/img" },
+        { from: "./src/assets/css/", to: "assets/css" },
       ],
+      
     }),
   ],
   module: {
