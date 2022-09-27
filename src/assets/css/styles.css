@@ -6,15 +6,25 @@
 .flex {
   display: flex;
 }
+
 .flex-col {
   flex-direction: column;
 }
+
 .justify-center {
   justify-content: center;
 }
 
+.justify-end {
+  justify-content: end;
+}
+
 .items-center {
   align-items: center;
+}
+
+.items-end {
+  align-items: flex-end;
 }
 
 .grid {
@@ -33,12 +43,16 @@
   grid-column-start: 2;
 }
 
+.col-start-3 {
+  grid-column-start: 3;
+}
+
 .col-end-5 {
   grid-column-end: 5;
 }
 
-.grid-rows-6 {
-  grid-template-rows: repeat(6, minmax(0, 1fr));
+.grid-rows-7 {
+  grid-template-rows: repeat(7, minmax(0, 1fr));
 }
 
 .col-span-2 {
@@ -49,12 +63,20 @@
   grid-column: span 3 / 3;
 }
 
+.col-span-4 {
+  grid-column: span 5 / 5;
+}
+
 .h-20 {
   height: 10rem;
 }
 
 .h-40 {
   height: 10rem;
+}
+
+.h-56 {
+  height: 14rem;
 }
 
 .w-96 {
@@ -73,12 +95,44 @@
   height: 100vh;
 }
 
+.bg-blue-binaire {
+  background-image: url(../img/background-blue-binaire.jfif);
+}
+
+.bg-sky-planet {
+  background-image: url(../img/sky-planet.jpg);
+}
+
+.bg-amber-50 {
+  background-color: rgb(255 251 235);
+}
+
 .bg-black {
   background-color: black;
 }
 
+.bg-purple {
+  background-color: #7400b8;
+}
+
 .bg-beige {
   background-color: beige;
+}
+
+.bg-cyan {
+  background-color: #caf0f8;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .rounded-full {
@@ -87,6 +141,26 @@
 
 .text-white {
   color: white;
+}
+
+.text-purple {
+  color: #7400b8;
+}
+
+.text-purple-2 {
+  color: #8980f5 ;
+}
+
+.text-cyan {
+  color: #caf0f8;
+}
+
+.text-blue-800 {
+  color: #112a46;
+}
+
+.text-turquoise {
+  color: #07beb8;
 }
 
 .uppercase {
@@ -109,6 +183,11 @@
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
 }
 
 .py-8 {
@@ -142,4 +221,12 @@
 
 .decoration-none {
   text-decoration: none;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-b-4 {
+  border-bottom-width: 4px;
 }
