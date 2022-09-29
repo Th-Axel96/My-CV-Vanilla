@@ -6,20 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV-Axel</title>
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/queries.css" />
   </head>
-  <body class="bg-img-blue bg-cover bg-center">
+  <body class="bg-circle-blue bg-cover bg-center">
     <!-- **** Header **** -->
 
     <!-- **** Content **** -->
 
     <div class="grid grid-cols-4">
-      <aside
-        class="grid grid-rows-8 bg-glass border-solid border-4 border-white backdrop-filter border-shadow rounded-3xl m-8"
-      >
+      <aside class="">
         <!-- ********* Row 1 ***********  -->
-        <div>
+        <div
+          class="bg-glass border-solid border-4 border-white backdrop-filter border-shadow rounded-3xl m-8"
+        >
           <div
-            class="flex flex-col items-center justify-center text-purple uppercase pt-8"
+            class="flex flex-col items-center justify-center text-purple uppercase m-8"
           >
             <h1>Axel Moussart</h1>
 
@@ -28,7 +29,11 @@
             <img src="./assets/img/Bitmoji-axel.png" width="150px" alt="" />
           </div>
         </div>
-        <div class="pt-8">
+
+        <!-- row 2 -->
+        <div
+          class="py-8 bg-glass border-solid border-4 border-white backdrop-filter border-shadow rounded-3xl m-8"
+        >
           <h3 class="uppercase text-purple text-center">
             Informations générales
           </h3>
@@ -36,34 +41,36 @@
             <hr style="border-color: #5390d9" />
           </div>
           <div class="flex flex-col pt-4 pl-4">
-            <span>13 Juillet 1996</span>
-            <span>06 66 71 38 87</span>
+            <span class="flex items-center"
+              ><span class="pr-4"
+                ><img
+                  src="./assets/img/gateau-danniversaire.png"
+                  width="50px"
+                  alt="gateau-danniversaire"
+                />
+              </span>
+              13 Juillet 1996</span
+            >
+            <span class="flex items-center pt-4"
+              ><span class="pr-4"
+                ><img
+                  src="./assets/img/smartphones.png"
+                  width="50px"
+                  alt="logo smartphones"
+              /></span>
+              06 66 71 38 87</span
+            >
             <span>axelmoussart77@gmail.com</span>
             <span>Meaux (77100)</span>
             <span>Permis B</span>
           </div>
         </div>
 
-        <div class="pt-8">
-          <h3 class="uppercase text-purple text-center">Compétences</h3>
-          <div class="px-8">
-            <hr style="border-color: #5390d9" />
-          </div>
-          <div class="flex flex-col pl-4 pt-4 uppercase"></div>
-          <span class="flex justify-center"
-            ><img
-              src="./assets/img/html-5.svg"
-              width="75px"
-              alt="logo html-5"
-            />
-            <img src="./assets/img/css-3-logo.svg" width="75px" alt="logo css5" />
-            <img src="./assets/img/js.svg" width="60px" alt="" />
-          </span>
-        </div>
+        <!-- *********** Row 3 ************-->
 
-        <!-- *********** Row 2 ************-->
-
-        <div class="pt-8">
+        <div
+          class="py-8 bg-glass border-solid border-4 border-white backdrop-filter border-shadow rounded-3xl m-8"
+        >
           <h3 class="uppercase text-purple text-center">Mes liens</h3>
           <div class="px-8">
             <hr style="border-color: #5390d9" />
@@ -89,25 +96,11 @@
           </div>
         </div>
 
-        <!-- *********** Row 3 ************-->
-
-        <div class="pt-8">
-          <h3 class="uppercase text-purple text-center">Hard skills</h3>
-          <div class="px-8">
-            <hr style="border-color: #5390d9" />
-          </div>
-          <div class="pt-4 pl-4">
-            <ul>
-              <li>React</li>
-              <li>Tailwind</li>
-              <li>Webpack</li>
-            </ul>
-          </div>
-        </div>
-
         <!-- ********* Row 4 ********* -->
 
-        <div class="pt-8">
+        <div
+          class="py-8 bg-glass border-solid border-4 border-white backdrop-filter border-shadow rounded-3xl m-8"
+        >
           <h3 class="uppercase text-purple text-center">Soft skills</h3>
           <div class="px-8">
             <hr style="border-color: #5390d9" />
@@ -122,7 +115,9 @@
         </div>
 
         <!-- ******** Row 5 ********** -->
-        <div class="pt-8">
+        <div
+          class="py-8 bg-glass border-solid border-4 border-white backdrop-filter border-shadow rounded-3xl m-8"
+        >
           <h3 class="uppercase text-purple text-center">Centres d'intérêts</h3>
           <div class="px-8">
             <hr style="border-color: #5390d9" />
@@ -139,8 +134,10 @@
 
         <!-- ******** Row 6 ********* -->
 
-        <div>
-          <div class="flex flex-col justify-end items-center h-20">
+        <div
+          class="py-8 bg-glass border-solid border-4 border-white backdrop-filter border-shadow rounded-3xl m-8"
+        >
+          <div class="flex flex-col items-center">
             <span class="italic">Copyright</span>
             <div class="pt-4">
               <span
@@ -167,17 +164,21 @@
       </aside>
 
       <!-- ******* aside End ******** -->
-      <div
-        class="px-8 col-start-2 col-end-5 py-8 bg-glass m-8 border-solid border-4 border-white border-shadow backdrop-filter rounded-3xl"
-      >
-        <h1 class="text-center text-purple uppercase">
-          Expériences professionnelles
-        </h1>
-        <div class="px-16">
-          <hr style="border-color: #5390d9" />
-        </div>
 
-        <div class="pt-8 pl-8">
+      <!-- get the experience -->
+
+      <div class="col-start-2 col-end-4">
+        <!-- get rows 1 -->
+
+        <div
+          class="bg-glass border-solid border-4 border-white backdrop-filter border-shadow rounded-3xl m-8 py-8 px-8"
+        >
+          <h1 class="text-center text-purple uppercase">
+            Expériences professionnelles
+          </h1>
+          <div class="px-16">
+            <hr style="border-color: #5390d9" />
+          </div>
           <div class="pt-8">
             <h3>Stage développeur Web - (nom de l'entreprise)</h3>
             <span class="italic">2023</span>
@@ -207,7 +208,6 @@
               </li>
             </ul>
           </div>
-
           <div class="pt-8">
             <h3>Préparateur de commande - (ID Logistics)</h3>
             <span class="italic">2020 - 2022</span>
@@ -223,7 +223,6 @@
               </li>
             </ul>
           </div>
-
           <div class="pt-8">
             <h3>Préparateur de commande - (Entrepôt H&M)</h3>
             <span class="italic">2017-2019</span>
@@ -239,85 +238,237 @@
               <li>Étiquetage des articles et des cartons</li>
             </ul>
           </div>
+        </div>
+
+        <!-- get rows 2 formation -->
+        <div
+          class="bg-glass border-solid border-4 border-white backdrop-filter border-shadow rounded-3xl m-8"
+        >
           <h1 class="text-center text-purple uppercase pt-8">Formation</h1>
           <div class="px-16">
             <hr style="border-color: #5390d9" />
           </div>
-          <div class="pt-8 pl-8">
-            <div class="pt-8">
-              <h3>Développeur Web - (ACS)</h3>
-              <span class="italic">2022 - 2023</span>
-              <ul class="pl-4">
-                <li>Création de site Web</li>
-                <li>Gestion du Front-End</li>
-                <li>Gestion du Back-End</li>
-              </ul>
+          <div class="pt-8">
+            <h3>Développeur Web - (ACS)</h3>
+            <span class="italic">2022 - 2023</span>
+            <ul class="pl-4">
+              <li>Création de site Web</li>
+              <li>Gestion du Front-End</li>
+              <li>Gestion du Back-End</li>
+            </ul>
+          </div>
+          <div class="pt-8">
+            <h3>Développeur Web - (Openclassrooms)</h3>
+            <span class="italic">2022</span>
+            <ul class="pl-4">
+              <li>Initiation au code</li>
+              <li>Création de divers projets</li>
+              <li>Appétance</li>
+            </ul>
+          </div>
+          <div class="pt-8">
+            <h3>Apprentie Boulanger / Pâtissier - (Mouillet)</h3>
+            <span class="italic">2014-2015 </span>
+            <ul class="pl-4">
+              <li>Règles d'hygiènes</li>
+              <li>
+                Confection de pains et de viennoiseries (dosage des ingrédients,
+                pétrissage, fermentation)
+              </li>
+              <li>Enfourner les réalisations et surveiller la cuisson</li>
+            </ul>
+          </div>
+        </div>
+        <!-- get rows 3  diplome -->
+        <div
+          class="bg-glass border-solid border-4 border-white backdrop-filter border-shadow rounded-3xl m-8"
+        >
+          <h1 class="text-center text-purple uppercase pt-8">Diplômes</h1>
+          <div class="px-16">
+            <hr style="border-color: #5390d9" />
+          </div>
+          <div class="pt-8">
+            <h3>Développeur Web et Web mobile III - (ACS)</h3>
+            <span class="italic">2022 - 2023</span>
+            <h4 class="pl-4 font-thin">
+              Développer la partie Front-End et Back-End d'une application Web
+              et Web Mobile
+            </h4>
+          </div>
+        </div>
+      </div>
+
+      <!-- get the aside hard skills -->
+      <div class="">
+        <!-- row 1 hard skills -->
+        <div>
+          <div
+            class="bg-glass border-solid border-4 border-white backdrop-filter border-shadow rounded-3xl py-8 m-8"
+          >
+            <h1 class="flex justify-center text-purple uppercase">
+              Hard skills
+            </h1>
+            <div class="px-16">
+              <hr style="border-color: #5390d9" />
             </div>
-            <div class="pt-8">
-              <h3>Développeur Web - (Openclassrooms)</h3>
-              <span class="italic">2022</span>
-              <ul class="pl-4">
-                <li>Initiation au code</li>
-                <li>Création de divers projets</li>
-                <li>Appétance</li>
-              </ul>
-            </div>
-            <div class="pt-8">
-              <h3>Apprentie Boulanger / Pâtissier - (Mouillet)</h3>
-              <span class="italic">2014-2015 </span>
-              <ul class="pl-4">
-                <li>Règles d'hygiènes</li>
-                <li>
-                  Confection de pains et de viennoiseries (dosage des
-                  ingrédients, pétrissage, fermentation)
-                </li>
-                <li>Enfourner les réalisations et surveiller la cuisson</li>
-              </ul>
-            </div>
-            <h1 class="text-center text-purple uppercase pt-8">Diplômes</h1>
+          </div>
+          <div
+            class="bg-glass border-solid border-4 border-white backdrop-filter border-shadow rounded-3xl py-8 m-8"
+          >
+            <h3 class="flex justify-center uppercase text-purple">
+              Langage Informatique
+            </h3>
             <div class="px-16">
               <hr style="border-color: #5390d9" />
             </div>
 
-            <div class="pt-8">
-              <h3>Développeur Web et Web mobile III - (ACS)</h3>
-              <span class="italic">2022 - 2023</span>
-              <h4 class="pl-4 font-thin">
-                Développer la partie Front-End et Back-End d'une application Web
-                et Web Mobile
-              </h4>
-            </div>
+            <span class="flex justify-center pt-4"
+              ><img
+                src="./assets/img/html-5.svg"
+                width="75px"
+                alt="logo html-5"
+              />
+              <img
+                src="./assets/img/css-3-logo.svg"
+                width="75px"
+                alt="logo css5"
+                class="px-4"
+              />
+              <img
+                src="./assets/img/js.svg"
+                width="60px"
+                height="auto"
+                alt="logo-js"
+              />
+            </span>
+            <span class="flex justify-center"
+              ><img
+                src="./assets/img/php.svg"
+                width="100px"
+                height="auto"
+                alt="php-logo"
+                class="pr-4" />
+              <img
+                src="./assets/img/mysql-logo.svg"
+                width="100px"
+                alt="logo-mysql"
+            /></span>
           </div>
+        </div>
+
+        <!-- get the rows 2 framework -->
+        <div
+          class="bg-glass border-solid border-4 border-white backdrop-filter border-shadow rounded-3xl py-8 m-8"
+        >
+          <h3 class="flex justify-center uppercase text-purple">Framework</h3>
+          <div class="px-16">
+            <hr style="border-color: #5390d9" />
+          </div>
+          <span class="flex justify-center pt-4"
+            ><img
+              src="./assets/img/tailwind.svg"
+              width="75px"
+              alt="logo tailwind"
+            />
+            <img
+              class="px-4"
+              src="./assets/img/bootstrap.svg"
+              width="60px"
+              alt=""
+            />
+            <img src="./assets/img/nodejs.svg" width="75px" alt="logo nodejs" />
+          </span>
+          <span class="flex justify-center pt-4"
+            ><img
+              src="./assets/img/symfony.svg"
+              width="60px"
+              alt="logo symfony" />
+            <img
+              src="./assets/img/jest.svg"
+              width="60px"
+              alt="logo jest"
+              class="px-4" />
+            <img
+              src="./assets/img/next-dot-js.svg"
+              width="60px"
+              alt="logo nextjs"
+          /></span>
+        </div>
+        <!-- row 3 librairie -->
+        <div
+          class="bg-glass border-solid border-4 border-white backdrop-filter border-shadow rounded-3xl py-8 m-8"
+        >
+          <h3 class="flex justify-center uppercase text-purple">librairies</h3>
+          <div class="px-16">
+            <hr style="border-color: #5390d9" />
+          </div>
+          <span class="flex justify-center pt-4"
+            ><img
+              class="pr-4"
+              src="./assets/img/react.svg"
+              width="75px"
+              height="auto"
+              alt="logo react"
+            />
+            <img
+              src="./assets/img/chartjs-logo.svg"
+              width="75px"
+              alt="logo chart.js"
+            />
+          </span>
+          <span class="flex justify-center pt-4">
+            <img
+              src="./assets/img/aos.png"
+              width="100px"
+              height="auto"
+              alt="logo aos-animate"
+          /></span>
+        </div>
+
+        <!-- get the rows 4 outils -->
+        <div
+          class="bg-glass border-solid border-4 border-white backdrop-filter border-shadow rounded-3xl py-8 m-8"
+        >
+          <h3 class="flex justify-center uppercase text-purple">outils</h3>
+          <div class="px-16">
+            <hr style="border-color: #5390d9" />
+          </div>
+
+          <span class="flex justify-center pt-4">
+            <img
+              src="./assets/img/git.svg"
+              width="75px"
+              height="auto"
+              alt="logo git"
+            />
+            <img
+              class="px-4"
+              src="./assets/img/webpack.svg"
+              width="75px"
+              alt="logo webpack"
+            />
+            <img
+              src="./assets/img/netlify.svg"
+              width="75px"
+              alt="logo netlify"
+            />
+          </span>
+          <span class="flex justify-center"
+            ><img
+              class="pr-4"
+              src="./assets/img/npm.svg"
+              width="90px"
+              height="auto"
+              alt="logo npm"
+            />
+            <img
+              src="./assets/img/wordpress.svg"
+              width="60px"
+              alt="logo wordpress"
+            />
+          </span>
         </div>
       </div>
     </div>
-    <!-- **** Footer **** -->
-    <!-- <footer
-      class="h-20 w-full bg-sky-planet bg-center bg-cover bg-no-repeat text-white"
-    >
-      <div class="flex flex-col justify-center items-center h-full">
-        <span class="italic">Copyright</span>
-        <div class="pt-4">
-          <span
-            ><a href="#" target="_blank" rel="noreferrer noopener"
-              ><i class="fa-solid fa-link"></i></a
-          ></span>
-          <span class="px-4"
-            ><a
-              href="https://github.com/Th-Axel96"
-              target="_blank"
-              rel="noreferrer noopener"
-              ><i class="fa-brands fa-github"></i></a
-          ></span>
-          <span
-            ><a
-              href="https://www.linkedin.com/in/axel-moussart-55103a251/"
-              target="_blank"
-              rel="noreferrer noopener"
-              ><i class="fa-brands fa-linkedin"></i></a
-          ></span>
-        </div>
-      </div>
-    </footer> -->
   </body>
 </html>

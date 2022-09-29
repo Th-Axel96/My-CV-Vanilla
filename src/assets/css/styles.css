@@ -67,8 +67,16 @@
   grid-column-start: 3;
 }
 
-.col-end-5 {
-  grid-column-end: 5;
+.col-start-5 {
+  grid-column-start: 5;
+}
+
+.col-end-4 {
+  grid-column-end: 4;
+}
+
+.grid-rows-3 {
+  grid-template-rows: repeat(3, minmax(0, 1fr));
 }
 
 .grid-rows-7 {
@@ -115,13 +123,6 @@
   height: 100vh;
 }
 
-.bg-blue-binaire {
-  background-image: url(../img/background-blue-binaire.jfif);
-}
-
-.bg-sky-planet {
-  background-image: url(../img/sky-planet.jpg);
-}
 
 /* color */
 
@@ -233,6 +234,10 @@
   padding-left: 1rem;
 }
 
+.pr-4 {
+  padding-right: 1rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -283,10 +288,6 @@
   background: rgba(255, 255, 255, 0.5);
 }
 
-.bg-img-blue {
-  background-image: url(../img/bg-generator-blue.jpg);
-}
-
 .drop-shadow-2xl {
   filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
 }
@@ -295,8 +296,8 @@
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
 
-.bg-img-2 {
-  background-image: url(../img/Bitmoji-axel.png);
+.bg-circle-blue {
+  background-image: url(../img/bg-circle-blue.jpg);
 }
 
 /* SVG */
