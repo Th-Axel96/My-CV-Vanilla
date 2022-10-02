@@ -4,6 +4,10 @@
   font-family: "Ubuntu", sans-serif;
 }
 
+.overflow-x-hidden {
+  overflow-x: hidden;
+}
+
 /* padding */
 
 .p-4 {
@@ -417,7 +421,7 @@
 /* bg-test */
 
 .bg-img {
-  background-image: url(../img/image-5bpmw4ng.png)
+  background-image: url(../img/image-5bpmw4ng.png);
 }
 
 /* media screen tablet */
