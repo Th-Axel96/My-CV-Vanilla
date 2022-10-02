@@ -433,6 +433,12 @@
   }
 }
 
+@media screen and (min-width: 425px) {
+  .md-border-b-black {
+    border-bottom: solid black 4px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   /* padding */
 
@@ -480,10 +486,6 @@
   .md-text-5xl {
     font-size: 3rem;
   } /* 48px */
-
-  .md-border-b-black {
-    border-bottom: solid black 4px;
-  }
 }
 
 /* responsive laptop */
@@ -512,11 +514,27 @@
     grid-column: span 3 / span 3;
   }
 
+  .lg-mx-4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
   .lg-mx-8 {
     margin-left: 2rem;
     margin-right: 2rem;
   }
+  .lg-mx-16 {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
 
+  .lg-pr-4 {
+    padding-right: 1rem;
+  }
+
+  .lg-px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
   .lg-px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -539,6 +557,13 @@
   }
 }
 
+@media screen and (min-width: 1440px ) {
+  .xxl-px-16 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
 @media screen and (min-width: 2560px) {
   .xl-text-2xl {
     font-size: 1.5rem; /* 24px */
@@ -552,6 +577,16 @@
     padding-left: 3rem;
     padding-right: 3rem;
   }
+
+  .xl-mx-4 {
+    margin-right: 1rem;
+    margin-left: 1rem;
+  }
+  .xl-mx-12 {
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+
   .xl-mx-60 {
     margin-left: 15rem;
     margin-right: 15rem;
