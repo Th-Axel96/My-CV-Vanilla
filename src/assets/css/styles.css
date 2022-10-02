@@ -108,6 +108,10 @@
   margin-bottom: 1rem;
 }
 
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
 .mx-24 {
   margin-right: 6rem;
   margin-left: 6rem;
@@ -351,8 +355,8 @@
   border-right: solid 1px;
 }
 
-.border-2-black {
-  border: solid black 1px;
+.border-2-white {
+  border: solid white 1px;
 }
 
 .border-b-black {
@@ -460,6 +464,6 @@
   }
 
   .md-border-b-black {
-  border-bottom: solid black 4px;
-}
+    border-bottom: solid black 4px;
+  }
 }
