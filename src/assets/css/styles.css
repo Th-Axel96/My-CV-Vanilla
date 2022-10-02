@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: "Ubuntu", sans-serif;
 }
 
 /* padding */
@@ -416,20 +417,34 @@
 /* bg-test */
 
 .bg-img {
-  background-image: url(../img/bg-carré-orange.png);
+  background-image: url(../img/image-5bpmw4ng.png)
 }
 
 /* media screen tablet */
 
-@media screen and (min-width: 768px) {
-  .md-bg-red {
-    background-color: red;
+@media screen and (max-width: 320px) {
+  .xs-px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
+}
+
+@media screen and (min-width: 768px) {
+  /* padding */
 
   .md-px-40 {
     padding-left: 5rem;
     padding-right: 5rem;
   }
+
+  /* margin */
+
+  .md-mx-40 {
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+
+  /* text size */
   .md-text-sm {
     font-size: 0.875rem;
   }
@@ -462,12 +477,83 @@
     font-size: 3rem;
   } /* 48px */
 
-  .md-mx-40 {
-    margin-left: 8rem;
-    margin-right: 8rem;
-  }
-
   .md-border-b-black {
     border-bottom: solid black 4px;
+  }
+}
+
+/* responsive laptop */
+
+@media screen and (min-width: 1024px) {
+  .lg-block {
+    display: block;
+  }
+  .lg-hidden {
+    display: none;
+  }
+
+  .lg-grid {
+    display: grid;
+  }
+
+  .lg-grid-cols-2 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .lg-col-span-2 {
+    grid-column: span 2 / span 2;
+  }
+
+  .lg-col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+
+  .lg-mx-8 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .lg-px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .lg-px-12 {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+  .lg-mt-12 {
+    margin-top: 3rem;
+  }
+
+  .lg-text-xl {
+    font-size: 1.25rem; /* 20px */
+  }
+
+  .lg-text-sm {
+    font-size: 0.875rem; /* 14px */
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .xl-text-2xl {
+    font-size: 1.5rem; /* 24px */
+  }
+
+  .xl-text-lg {
+    font-size: 1.125rem;
+  }
+
+  .xl-px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .xl-mx-60 {
+    margin-left: 15rem;
+    margin-right: 15rem;
+  }
+
+  .xl-mr-60 {
+    margin-right: 15rem;
   }
 }
