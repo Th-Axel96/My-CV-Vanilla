@@ -264,12 +264,18 @@
   height: 14rem;
 }
 
-.w-96 {
-  width: 24rem;
+.h-screen {
+  height: 100vh;
 }
 
 .h-full {
   height: 100%;
+}
+
+/* width */
+
+.w-96 {
+  width: 24rem;
 }
 
 .w-full {
@@ -280,18 +286,10 @@
   width: 100vw;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
-/* color */
+/* backgound */
 
 .bg-no-repeat {
   background-repeat: no-repeat;
-}
-
-.bg-blue-dark {
-  background-color: #03045e;
 }
 
 .bg-cover {
@@ -305,6 +303,8 @@
 .bg-center {
   background-position: center;
 }
+
+/* color */
 
 .text-white {
   color: white;
@@ -325,6 +325,8 @@
 .text-blue {
   color: blue;
 }
+
+/* text */
 
 .uppercase {
   text-transform: uppercase;
@@ -387,7 +389,7 @@
 /* glassmorphism */
 
 .backdrop-filter {
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(3px);
 }
 
 .opacity-20 {
@@ -395,11 +397,7 @@
 }
 
 .bg-glass {
-  background: rgb(255, 255, 255, 0.1);
-}
-
-.drop-shadow-2xl {
-  filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+  background-color: rgba(225, 225, 225, 0.3);
 }
 
 .border-shadow {
@@ -408,20 +406,18 @@
   /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
 }
 
-.bg-dark {
-  background-color: #d90429;
-}
-
-/* SVG */
-
-.bg-img-1 {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg clip-path='url(%26quot%3b%23SvgjsClipPath1008%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(202%2c 240%2c 248%2c 1)'%3e%3c/rect%3e%3ccircle r='93.335' cx='2.46' cy='74.64' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='93.335' cx='413.25' cy='419.64' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='93.335' cx='777.82' cy='688.2' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='154.1' cx='389.03' cy='446.45' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='66.03' cx='1107.4' cy='463.47' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='116.7' cx='827.02' cy='519.16' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='166.375' cx='696.11' cy='500.07' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='115.375' cx='1199.92' cy='326.96' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='122.71' cx='1258.47' cy='318.56' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='168.805' cx='883.92' cy='199.16' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='132.605' cx='458' cy='161.51' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='83.375' cx='718.37' cy='340.91' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='92.395' cx='720.08' cy='8.57' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='160.09' cx='73.16' cy='136.64' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='150.95' cx='3.17' cy='387.12' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='60.08' cx='424.98' cy='497.9' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='56.645' cx='268.18' cy='230.62' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='126.23' cx='1034.5' cy='389.89' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='82.32' cx='980.02' cy='160' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='80.905' cx='1422.37' cy='136.49' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='68.84' cx='607.26' cy='68.35' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='60.12' cx='819.52' cy='409.58' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='124.635' cx='1383.76' cy='14.4' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='53.76' cx='1384.75' cy='456.89' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='122.375' cx='221.02' cy='313.69' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='84.575' cx='1434.35' cy='254.79' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='89.455' cx='182.26' cy='420.96' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='132.29' cx='666.81' cy='160.53' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='147.905' cx='1080.11' cy='218.38' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='77.235' cx='1036.44' cy='74.19' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='59.46' cx='795.2' cy='230.61' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='178.52' cx='371.35' cy='128.2' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='116.845' cx='841.61' cy='12.39' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='81.23' cx='28.2' cy='397.58' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='111.905' cx='982.66' cy='509.23' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='67.36' cx='1020.63' cy='265.33' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='141.785' cx='1073.7' cy='93.06' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='91.47' cx='378.76' cy='142.15' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='118.18' cx='759.69' cy='91.51' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3ccircle r='184.94' cx='144.12' cy='171.71' stroke='%23365aa3' stroke-opacity='0.71' stroke-width='2'%3e%3c/circle%3e%3c/g%3e%3cdefs%3e%3cclipPath id='SvgjsClipPath1008'%3e%3crect width='1440' height='560' x='0' y='0'%3e%3c/rect%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
-}
-
 /* bg-test */
 
 .bg-img {
   background-image: url(../img/image-5bpmw4ng.png);
+}
+
+.bg-orange-300 {
+  background-color: rgb(253 186 116);
+}
+
+.bg-indigo-200 {
+  background-color: rgb(165 180 252);
 }
 
 /* media screen tablet */
@@ -491,12 +487,17 @@
 /* responsive laptop */
 
 @media screen and (min-width: 1024px) {
+  /* display */
+
   .lg-block {
     display: block;
   }
+
   .lg-hidden {
     display: none;
   }
+
+  /* grid */
 
   .lg-grid {
     display: grid;
@@ -514,6 +515,8 @@
     grid-column: span 3 / span 3;
   }
 
+  /* margin */
+
   .lg-mx-4 {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -526,6 +529,12 @@
     margin-left: 4rem;
     margin-right: 4rem;
   }
+
+  .lg-mt-12 {
+    margin-top: 3rem;
+  }
+
+  /* padding */
 
   .lg-pr-4 {
     padding-right: 1rem;
@@ -544,9 +553,8 @@
     padding-right: 3rem;
     padding-left: 3rem;
   }
-  .lg-mt-12 {
-    margin-top: 3rem;
-  }
+
+  /* size */
 
   .lg-text-xl {
     font-size: 1.25rem; /* 20px */
@@ -557,7 +565,7 @@
   }
 }
 
-@media screen and (min-width: 1440px ) {
+@media screen and (min-width: 1440px) {
   .xxl-px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
@@ -565,18 +573,40 @@
 }
 
 @media screen and (min-width: 2560px) {
-  .xl-text-2xl {
-    font-size: 1.5rem; /* 24px */
-  }
+  /* size */
 
   .xl-text-lg {
     font-size: 1.125rem;
   }
 
+  .xl-text-xl {
+    font-size: 1.25rem; /* 20px */
+  }
+
+  .xl-text-2xl {
+    font-size: 1.5rem; /* 24px */
+  }
+
+  .xl-text-3xl {
+    font-size: 1.875rem; /* 30px */
+  }
+
+  .xl-text-4xl {
+    font-size: 2.25rem; /* 36px */
+  }
+
+  .xl-text-5xl {
+    font-size: 3rem; /* 48px */
+  }
+
+  /* padding */
+
   .xl-px-12 {
     padding-left: 3rem;
     padding-right: 3rem;
   }
+
+  /* margin */
 
   .xl-mx-4 {
     margin-right: 1rem;
