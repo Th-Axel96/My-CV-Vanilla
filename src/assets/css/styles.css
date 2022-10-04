@@ -311,7 +311,7 @@
 }
 
 .text-purple {
-  color: #7400b8;
+  color: rgb(30 64 175);;
 }
 
 .text-purple-2 {
@@ -366,9 +366,7 @@
   border-right: solid 1px;
 }
 
-.border-2-white {
-  border: solid white 1px;
-}
+
 
 .border-b-black {
   border-bottom: solid black 4px;
@@ -410,6 +408,11 @@
 
 .bg-img {
   background-image: url(../img/image-5bpmw4ng.png);
+}
+
+.bg-blue-gradiant {
+  background-image: radial-gradient(rgb(165 180 252),gray
+   );
 }
 
 .bg-orange-300 {
