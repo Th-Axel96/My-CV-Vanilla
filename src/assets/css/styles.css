@@ -175,6 +175,9 @@
 .justify-end {
   justify-content: end;
 }
+.items-start {
+  align-items: flex-start;
+}
 
 .items-center {
   align-items: center;
