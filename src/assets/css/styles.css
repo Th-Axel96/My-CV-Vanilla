@@ -49,6 +49,9 @@
   padding-right: 4rem;
 }
 
+.pt-1 {
+  padding-top: 0.25rem;
+}
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -57,6 +60,11 @@
 .py-4 {
   padding-bottom: 1rem;
   padding-top: 1rem;
+}
+
+.py-6 {
+  padding-bottom: 1.5rem;
+  padding-top: 1.5rem;
 }
 
 .py-8 {
@@ -610,7 +618,6 @@
   }
   .xl-ml-24 {
     margin-left: 5rem;
-    
   }
 
   .xl-mr-24 {
@@ -676,4 +683,16 @@
   .xxl-mr-60 {
     margin-right: 15rem;
   }
+}
+
+.easeinout {
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.duration {
+  transition-duration: 1000ms;
+}
+
+.scale:hover {
+ 
+  transform: scale(1.5);
 }
